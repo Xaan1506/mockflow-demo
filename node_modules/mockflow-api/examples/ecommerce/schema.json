@@ -1,0 +1,26 @@
+{
+  "products": {
+    "count": 50,
+    "fields": {
+      "title": "productName",
+      "price": "price",
+      "category": {
+        "type": "string",
+        "values": ["electronics", "clothing", "home", "books"]
+      },
+      "inStock": "boolean",
+      "image": "imageUrl"
+    }
+  },
+  "orders": {
+    "count": 20,
+    "fields": {
+      "orderDate": "date",
+      "total": "price",
+      "status": {
+        "type": "string",
+        "values": ["pending", "shipped", "delivered", "cancelled"]
+      }
+    }
+  }
+}

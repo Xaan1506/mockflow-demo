@@ -1,0 +1,22 @@
+{
+  "authors": {
+    "count": 5,
+    "fields": {
+      "name": "fullName",
+      "email": "email"
+    }
+  },
+  "articles": {
+    "count": 20,
+    "fields": {
+      "title": "sentence",
+      "body": "paragraph"
+    },
+    "relationships": {
+      "authorId": {
+        "collection": "authors",
+        "type": "many-to-one"
+      }
+    }
+  }
+}
